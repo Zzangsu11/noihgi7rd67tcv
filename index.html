@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>마음 온도 🌿 설문</title>
+
+  <!-- 폰트 링크 - head 안으로 이동 -->
+  <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>마음 온도</h1>
+    <p>당신의 이야기를 기다리고 있어요</p>
+  </header>
+
+  <main>
+    <section class="survey-link">
+      <!-- 설문 링크: viewform으로 수정 -->
+      <a href="https://docs.google.com/forms/d/1ocDrKSv1y_8gvgGRMlKbMW4SicJaYMtHzx_mA0F5UDA/viewform" target="_blank">
+        설문 참여하러 가기
+      </a>
+    </section>
+
+    <section class="content">
+      <div class="left-image">
+        <img src="mint-photo1.jpg" alt="마음 풍경" />
+      </div>
+      <div class="right-area">
+        <!-- 업로드한 이미지 경로 반영 -->
+        <div class="image-wrapper">
+  <img src="https://i.imgur.com/1IX5b1n.png" alt="사용자 후기 예시" />
+  <div class="image-text">사용자 후기 예시</div>
+</div>
+
+        <button onclick="connectToChat()">상담 요청하기</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- 상담 함수 정의 필요 -->
+  <script>
+    function connectToChat() {
+      alert("상담 채널로 연결됩니다 :)");
+    }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+  .right-area img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+</style>

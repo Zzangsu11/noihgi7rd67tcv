@@ -1,0 +1,119 @@
+body {
+  font-family: 'Gowun Dodum', sans-serif;
+  background-color: #f3f9f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #c6ede0;
+  padding: 30px 20px;
+  text-align: center;
+  border-bottom: 2px solid #b2ddd0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #2c6f60;
+}
+
+header p {
+  margin: 5px 0 0;
+  color: #4a8c7a;
+  font-size: 1.1em;
+}
+
+.survey-link {
+  background-color: #e0f7f1;
+  text-align: center;
+  padding: 20px;
+}
+
+.survey-link a {
+  background-color: #a2dcd0;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  transition: background-color 0.3s;
+}
+
+.survey-link a:hover {
+  background-color: #88cbbf;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 40px;
+}
+
+.left-image img,
+.right-area img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.right-area {
+  text-align: center;
+}
+
+.right-area button {
+  margin-top: 20px;
+  background-color: #a3c7bd;
+  color: #fff;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.right-area button:hover {
+  background-color: #7fb5a7;
+  transform: translateY(-2px);
+}
+
+
+.right-area img {
+  width: 300px; 
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 16px;
+}
+
+
+.image-wrapper {
+  position: relative;
+  width: 300px; /* 이미지 크기 고정하거나 %로 */
+  margin-bottom: 16px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* 반투명 배경 */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: 16px;
+}
